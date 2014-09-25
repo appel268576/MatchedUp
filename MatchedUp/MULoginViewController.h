@@ -1,5 +1,5 @@
 //
-//  MUSecondViewController.h
+//  MULoginViewController.h
 //  MatchedUp
 //
 //  Created by ApPeL on 2014/09/21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MUSecondViewController : UIViewController
+@interface MULoginViewController : UIViewController <NSURLConnectionDataDelegate>
 
 @end
