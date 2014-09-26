@@ -1,0 +1,24 @@
+PODS:
+  - Bolts (1.1.2)
+  - Facebook-iOS-SDK (3.18.0):
+    - Bolts
+  - Parse (1.2.21):
+    - Facebook-iOS-SDK (~> 3.17)
+  - ParseFacebookUtils (1.2.21):
+    - Facebook-iOS-SDK (~> 3.17)
+    - Parse (~> 1.2.21)
+
+DEPENDENCIES:
+  - ParseFacebookUtils (from `https://raw.githubusercontent.com/rickerbh/ParseFacebookUtilsSpec/master/ParseFacebookUtils.podspec.json`)
+
+EXTERNAL SOURCES:
+  ParseFacebookUtils:
+    :podspec: https://raw.githubusercontent.com/rickerbh/ParseFacebookUtilsSpec/master/ParseFacebookUtils.podspec.json
+
+SPEC CHECKSUMS:
+  Bolts: 2635e8698a630774689441047f3465d78c48d485
+  Facebook-iOS-SDK: fa12c51cc57bfb6f92e47793c9d4d2c65bc92741
+  Parse: 4be4e9fe2ee6dae16010e7622a5641a7c89154b7
+  ParseFacebookUtils: ec0ccb09a34159fe9dd6121467fdd541051cde1a
+
+COCOAPODS: 0.33.1
